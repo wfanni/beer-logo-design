@@ -1,4 +1,4 @@
-# Simple logo design for "Beer Company"
+# [Simple logo design for "Beer Company"](https://wfanni.github.io/beer-logo-design.github.io/)
 
 The task was to create a simple logo depicting a pint of beer and making it interactive on a website.
 It was early on in my frontend studies, so it is quite basic, but I had fun exploring mockups to create a deeper, "real" feel of the website.
