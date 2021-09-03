@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #707070;
+    position: relative;
+
+}
+
+div#root {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: #4d4d4d;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    box-shadow: 0 0 20px;
+
+
+}
+
+#navbar #logo {
+    height: 80px;
+}
+
+svg {
+    width: 200px;
+    opacity: 0.8;
+    transition: all 0.2s;
+}
+
+svg#hover_logo {
+    display: none;
+}
+
+svg#first_logo:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+/* logo svg styles */
+
+.a {
+    isolation: isolate;
+  }
+
+  .b, .e {
+    fill: #fffef8;
+  }
+
+  .b, .c {
+    stroke: #8c6239;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+  }
+
+  .c {
+    fill: #efefef;
+    stroke-width: 2px;
+  }
+
+  .d {
+    fill: none;
+  }
+
+  .f {
+    fill: #dba945;
+  }
+
+  .g {
+    opacity: 0.26;
+    mix-blend-mode: darken;
+  }
+
+  .h {
+    fill: #aa7b29;
+  }
+
+  .i {
+    font-size: 104.29px;
+    fill: #c69c6d;
+    font-family: Montserrat-Bold, Montserrat;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+  }
+
+  .j {
+    font-size: 42.6px;
+    fill: #f2f2f2;
+    font-family: Chonburi-Regular, Chonburi;
+    letter-spacing: 0.18em;
+  }
+
+  .k {
+    letter-spacing: 0.19em;
+  }
+
+  .l {
+    letter-spacing: 0.19em;
+  }
+
+  .m {
+    letter-spacing: 0.19em;
+  }
+
+  .n {
+    letter-spacing: 0.22em;
+  }
+
+  .o {
+    letter-spacing: 0.18em;
+  }
+
+  .p {
+    letter-spacing: 0.2em;
+  }
+
+  /* logo svg styles end */
+
+ul {
+    align-self: center;
+    display: flex;
+    list-style: none;
+
+    padding: 0;
+
+}
+
+ul a {
+    text-decoration: none;
+    color: bisque;
+
+    transition: color 0.2s;
+}
+
+ul li {
+    margin: 0 15px 0 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: semibold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #0c0c0c;
+
+    transition: transform 0.2s;
+    
+}
+
+ul li:first-child {
+    margin: 0 15px 0 0;
+}
+
+ul li:last-child {
+    margin: 0 0 0 15px;
+}
+
+ul a:hover {
+    color: #fff;
+}
+
+ul li:hover {
+    transform: translateY(-3px);
+    text-shadow: 0 0 10px #929292;
+    
+}
+
+#navbar input {
+    font-size: 20px;
+    width: 200px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0 10px #1d1d1d;
+    text-indent: 5px;
+    
+}
+
+#cover {   
+    height: 100%;
+    width: 100%;
+
+    background-image: url("/pics_w_logos/pint_bar.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#cover p {
+    margin: 6vh;
+    margin-top: 40vh;
+    font-size: 1.5em;
+    width: 30vw;
+    text-align: justify;
+}
