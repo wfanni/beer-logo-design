@@ -186,7 +186,7 @@ ul li:hover {
   height: 100%;
   width: 100%;
 
-  background-image: url("/mockup_pictures/pint_bar.png");
+  background-image: url("./mockup_pictures/pint_bar.png");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
